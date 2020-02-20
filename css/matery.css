@@ -709,7 +709,7 @@ header .go-back i {
 .dream .title,
 .music-player .title,
 .video-player .title {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 2rem;
     font-weight: 700;
 }
@@ -722,7 +722,7 @@ header .go-back i {
 .music-player,
 .video-player {
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .music,

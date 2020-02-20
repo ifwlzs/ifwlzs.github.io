@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-
+	
 
 <head>
     <meta charset="utf-8">
@@ -31,8 +31,8 @@
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
 
-<body>
-    <header class="navbar-fixed">
+	<body>
+		<header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper head-container">
             <div class="brand-logo">
@@ -99,6 +99,17 @@
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
       <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
     </a>
     
   </li>
@@ -196,6 +207,17 @@
         
         <li class="m-nav-item">
 	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
 		<a href="/friends" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-address-book"></i>
@@ -279,7 +301,7 @@
 
 </header>
 
-    
+		
 <style>
     .carousel-control {
         width: 45px;
@@ -344,10 +366,10 @@
                 <script>
                     var typed = new Typed("#subtitle", {
                         strings: ['成为dalao的第一步是学会复制黏贴',''],
-                        startDelay: 300,
-                        typeSpeed: 100,
+                        startDelay: 0,
+                        typeSpeed: 50,
                         loop: true,
-                        backSpeed: 500,
+                        backSpeed: 1000,
                         showCursor: true
                     });
                 </script>
@@ -465,25 +487,16 @@
             <div class="card">
                 <div class="card-content">
                     
-                        <div class="dream">
-    
-    <div class="title center-align">
-        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;听听音乐
-    </div>
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            
-        </div>
-    </div>
-</div>
-                    
 
                     
                         
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/aplayer/APlayer.min.css">
 <div class="music-player">
+    
+    <div class="title center-align">
+        <i class="fas fa-music"></i>&nbsp;&nbsp;听听音乐
+    </div>
     
     <div class="row">
         <div class="col l8 offset-l2 m10 offset-m1 s12">
@@ -499,14 +512,14 @@ $(function () {
         container: document.getElementById('aplayer'),
         fixed: 'false' === 'true',
         autoplay: 'false' === 'true',
-        theme: '#542674',
+        theme: '#39cccc',
         loop: 'all',
         order: 'random',
         preload: 'auto',
         volume: Number('0.6'),
         listFolded: 'false' === 'true',
-        listMaxHeight: '100px',
-        audio: eval([{"name":"画","artist":"邓紫棋","url":"http://music.163.com/song/media/outer/url?id=412911436.mp3","cover":"https://p1.music.126.net/fouKnh_hQKyyaCZ2PIQUEA==/1410673427960641.jpg?param=34y34"},{"name":"成全","artist":"林宥嘉","url":"http://music.163.com/song/media/outer/url?id=562594267.mp3","cover":"https://p1.music.126.net/jI1EcP0FrAVpPlZdGXd5Cw==/109951163304640811.jpg?param=34y34"},{"name":"夜空中最亮的星","artist":"逃跑计划","url":"http://music.163.com/song/media/outer/url?id=25706282.mp3","cover":"https://p1.music.126.net/d541jx7SqoDzVkenhmtg6g==/19193074974743620.jpg?param=34y34"},{"name":"忘记时间","artist":"胡歌","url":"http://music.163.com/song/media/outer/url?id=86360.mp3","cover":"https://p1.music.126.net/2-_sPmCBnN6VfwFmONRy2Q==/46179488378975.jpg?param=34y34"},{"name":"Fade","artist":"Alen Walker","url":"http://music.163.com/song/media/outer/url?id=29947420.mp3","cover":"https://p2.music.126.net/6Skxbgl8cfIjFGV-MzGi0Q==/109951163787691327.jpg?param=34y34"},{"name":"遇见","artist":"孙燕姿","url":"http://music.163.com/song/media/outer/url?id=287035.mp3","cover":"https://p2.music.126.net/ZpcOx5dbNTRK94vSIM20PQ==/768558627827568.jpg?param=34y34"},{"name":"不说再见","artist":"好妹妹","url":"http://music.163.com/song/media/outer/url?id=399354289.mp3","cover":"https://p2.music.126.net/GHspaji-l6W7rBT0e4PFrg==/2529976259373492.jpg?param=130y130"},{"name":"海阔天空","artist":"Beyond","url":"http://music.163.com/song/media/outer/url?id=25780157.mp3","cover":"https://p2.music.126.net/VcpffkkWbM3c6xpPhzxBsQ==/2336462209041205.jpg?param=34y34"},{"name":"理想三旬","artist":"谢春花","url":"http://music.163.com/song/media/outer/url?id=512359558.mp3","cover":"https://p1.music.126.net/MqEwyPK1SKmSFuq07BhkDg==/109951163044129482.jpg?param=130y130"},{"name":"遥远的她","artist":"张学友","url":"http://music.163.com/song/media/outer/url?id=191232.mp3","cover":"https://p1.music.126.net/rxyLRMZdqzHdxyP5cl8qQA==/43980465112095.jpg?param=34y34"},{"name":"倔强","artist":"五月天","url":"http://music.163.com/song/media/outer/url?id=386175.mp3","cover":"https://p2.music.126.net/ovsWnGqQYBy0XC8WD1lULw==/109951163188724796.jpg?param=34y34"},{"name":"起风了","artist":"买辣椒也用券","url":"http://music.163.com/song/media/outer/url?id=1330348068.mp3","cover":"https://p1.music.126.net/diGAyEmpymX8G7JcnElncQ==/109951163699673355.jpg?param=130y130"},{"name":"她说","artist":"林俊杰","url":"http://music.163.com/song/media/outer/url?id=108242.mp3","cover":"https://p2.music.126.net/peLODpaxX1Hl4RWYKR-34Q==/109951163071284933.jpg?param=130y130"},{"name":"好久不见","artist":"陈奕迅","url":"http://music.163.com/song/media/outer/url?id=65538.mp3","cover":"https://p1.music.126.net/o_OjL_NZNoeog9fIjBXAyw==/18782957139233959.jpg?param=34y34"},{"name":"借我","artist":"谢春花","url":"http://music.163.com/song/media/outer/url?id=408814900.mp3","cover":"https://p4.music.126.net/Q9c6TIW01TVR6_KpYKWu_A==/109951164202247412.jpg?param=50y50"},{"name":"Are You OK","artist":"雷军","url":"http://music.163.com/song/media/outer/url?id=31814005.mp3","cover":" https://p2.music.126.net/4Pu7M0q88fVVoo1ZFS_nmw==/3408486047237011.jpg?param=34y34"},{"name":"淘汰","artist":"陈奕迅","url":"http://music.163.com/song/media/outer/url?id=65528.mp3","cover":"https://p2.music.126.net/o_OjL_NZNoeog9fIjBXAyw==/18782957139233959.jpg?param=34y34"},{"name":"匆匆那年","artist":"王菲","url":"http://music.163.com/song/media/outer/url?id=31514406.mp3","cover":"https://p2.music.126.net/YCq17CaVbRTyFtJG6G5oDg==/7816428162584348.jpg?param=130y130"}])
+        listMaxHeight: '150px',
+        audio: eval([{"name":"光を","artist":"Arte Refact","url":"http://music.163.com/song/media/outer/url?id=28699337.mp3","cover":"https://p1.music.126.net/F6dgwUEWCC6zUrwgYzTrwA==/5859297464671761.jpg?param=130y130"},{"name":"濫觴生命","artist":"Orangestar","url":"http://music.163.com/song/media/outer/url?id=458231456.mp3","cover":"http://p1.music.126.net/0bolsy0s-tk2R1VCSYLxDQ==/18544363115845422.jpg?param=130y130"},{"name":"花と水飴、最終電車","artist":"n-buna / 初音ミク","url":"http://music.163.com/song/media/outer/url?id=33367346.mp3","cover":"http://p2.music.126.net/MLoChdXEUHXrpZSwsFPqYw==/7814229139683634.jpg?param=130y130"},{"name":"LIFE,LOVE.PEACE","artist":"IA","url":"http://music.163.com/song/media/outer/url?id=551335680.mp3","cover":"http://p1.music.126.net/PZSATAuqF4Uk9JAzgStp4Q==/109951163244804271.jpg?param=130y130"},{"name":"故友","artist":"洛天依","url":"http://music.163.com/song/media/outer/url?id=1306237418.mp3","cover":"http://p1.music.126.net/hdw5xmSV9Dfjg02abVkgRQ==/109951163524266096.jpg?param=130y130"},{"name":"回る空うさぎ","artist":"Orangestar/初音ミク","url":"http://music.163.com/song/media/outer/url?id=458231455.mp3","cover":"https://p1.music.126.net/0bolsy0s-tk2R1VCSYLxDQ==/18544363115845422.jpg?param=130y130"},{"name":"镇命歌 -しずめうた-","artist":"瀧沢一留","url":"http://music.163.com/song/media/outer/url?id=4956877.mp3","cover":"http://p1.music.126.net/Li-XsFdYi7D00meK_2YCXQ==/5798824325014681.jpg?param=130y130"},{"name":"世界第一可爱","artist":"純白P/阿梓","url":"http://music.163.com/song/media/outer/url?id=1368586594.mp3","cover":"http://p1.music.126.net/DzycCMRNhjS_uo2pG2m-MA==/109951164109743821.jpg?param=130y130"},{"name":"ジェニファー山田さん","artist":"味噌汁's","url":"http://music.163.com/song/media/outer/url?id=28636032.mp3","cover":"http://p1.music.126.net/NMStpZGIvUKBfXfD840gBg==/6066005650934164.jpg?param=130y130"},{"name":"天使にふれたよ!","artist":"豊崎愛生/日笠陽子/佐藤聡美/寿美菜子","url":"http://music.163.com/song/media/outer/url?id=26201959.mp3","cover":"http://p1.music.126.net/B_sCLXthAHgoVEMIRNU1hw==/109951163559682176.jpg?param=130y130"},{"name":"Open your eyes","artist":"亜咲花","url":"http://music.163.com/song/media/outer/url?id=437292725.mp3","cover":"http://p1.music.126.net/T5EJHoqGD3jwv6aB0x9YTQ==/18756568859042645.jpg?param=130y130"},{"name":"Reason","artist":"玉置成実","url":"http://music.163.com/song/media/outer/url?id=657377.mp3","cover":"http://p2.music.126.net/TLiyhA5uypd-xVzZF7xniQ==/874111744082207.jpg?param=130y130"},{"name":"美しきもの","artist":"Sound Horizon","url":"http://music.163.com/song/media/outer/url?id=22782025.mp3","cover":"http://p1.music.126.net/ivlCltZ5_PHSednttGmLBg==/926888302240122.jpg?param=130y130"},{"name":"手纸 ~拝啓 绪五の君へ~","artist":"Naomile","url":"http://music.163.com/song/media/outer/url?id=22792955.mp3","cover":"http://p1.music.126.net/GjqbfPvTE9QNQGahHLAdVQ==/885106860383215.jpg?param=130y130"},{"name":"心の旋律","artist":"高垣彩陽 /早見沙織 /瀬戸麻沙美 /島崎信長 /花江夏樹","url":"http://music.163.com/song/media/outer/url?id=27588120.mp3","cover":"http://p2.music.126.net/Klrg-OHPtaYVQwR_7QH4VA==/3168792511329933.jpg?param=130y130"},{"name":"ぼくのフレンド","artist":"尾崎由香/小野早稀/本宮佳奈/内田彩","url":"http://music.163.com/song/media/outer/url?id=1317457689.mp3","cover":"http://p2.music.126.net/oHtJHylS_NqDpgoWFCsiow==/109951164515664875.jpg?param=130y130"},{"name":"吹雪","artist":"西沢幸奏","url":"http://music.163.com/song/media/outer/url?id=30621776.mp3","cover":"http://p2.music.126.net/2qexYxGGM15s6nDoGF6OrQ==/7890095441169848.jpg?param=130y130"},{"name":"私、アイドル宣言","artist":"CHiCO with HoneyWorks","url":"http://music.163.com/song/media/outer/url?id=541511317.mp3","cover":"http://p1.music.126.net/8uyy0zYSMggNYzcOE2ITkg==/109951164190295192.jpg?param=130y130"}])
     });
 });
 </script>
@@ -584,7 +597,7 @@ $(function () {
 
 
 
-    <footer class="page-footer bg-color">
+		<footer class="page-footer bg-color">
     <div class="container row center-align" style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
@@ -700,7 +713,7 @@ $(function () {
 <div class="progress-bar"></div>
 
 
-    <!-- 搜索遮罩框 -->
+		<!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
@@ -718,7 +731,7 @@ $(function () {
     searchFunc("https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/" + "search.xml", 'searchInput', 'searchResult');
 });
 </script>
-    <!-- 回到顶部按钮 -->
+		<!-- 回到顶部按钮 -->
 <div id="backTop" class="top-scroll">
     <a class="btn-floating btn-large waves-effect waves-light" href="#!">
         <i class="fas fa-arrow-up"></i>
@@ -726,62 +739,60 @@ $(function () {
 </div>
 
 
-    <script src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/materialize/materialize.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/masonry/masonry.pkgd.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/aos/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/scrollprogress/scrollProgress.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/lightGallery/js/lightgallery-all.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/js/matery.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/materialize/materialize.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/masonry/masonry.pkgd.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/aos/aos.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/scrollprogress/scrollProgress.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/lightGallery/js/lightgallery-all.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/js/matery.js"></script>
 
-    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas>
-    <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
-    <script type="text/javascript" src="/js/fireworks.js"></script>
+		<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas>
+		<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+		<script type="text/javascript" src="/js/fireworks.js"></script>
 
-    <script type="text/javascript">
-        //只在桌面版网页启用特效
-        var windowWidth = $(window).width();
-        if (windowWidth > 768) {
-            document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>'); }
-    </script>
-    <!-- my_weather天气 -->
-    <!-- test -->
-    <script type="text/javascript">
-        WIDGET = {FID: 'QIqG0hDUBi'}
-    </script>
-    <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
+		<script type="text/javascript">
+			//只在桌面版网页启用特效
+			var windowWidth = $(window).width();
+			if(windowWidth > 768) {
+				document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+			}
+		</script>
+		<!-- my_blog_weather -->
+		<script type="text/javascript">
+			WIDGET = {
+				FID: 'HcsEfk0JDx'
+			}
+		</script>
+		<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+		<!-- Baidu Analytics -->
 
+		<!-- Baidu Push -->
 
-    <!-- Baidu Analytics -->
+		
+		
+		<script async src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/others/busuanzi.pure.mini.js"></script>
+		
 
-    <!-- Baidu Push -->
+		
 
-    
-    
-    <script async src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/others/busuanzi.pure.mini.js"></script>
-    
+		
 
-    
+		
+		<script type="text/javascript" color="0,0,255" pointColor="0,0,255" opacity='0.7' zIndex="-1" count="99" src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/background/canvas-nest.js"></script>
+		
 
-    
+		
 
-    
-    <script type="text/javascript" color="0,0,255"
-        pointColor="0,0,255" opacity='0.7'
-        zIndex="-1" count="99"
-        src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/background/canvas-nest.js"></script>
-    
+		
 
-    
-
-    
-    
-    
-    <script src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/instantpage/instantpage.js" type="module"></script>
-    
-
+		
+		<script src="https://cdn.jsdelivr.net/gh/ifwlzs/ifwlzs.github.io/libs/instantpage/instantpage.js" type="module"></script>
+		
+	
         <script src="//cdn.jsdelivr.net/npm/js-base64/base64.min.js"></script>
         <script>
         $('a').each(function() {
