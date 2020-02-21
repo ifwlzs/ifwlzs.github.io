@@ -876,15 +876,14 @@ _   下划线
 -   减号
 .   英文句点
 !   感叹号</code></pre><h2 id="3、公式"><a href="#3、公式" class="headerlink" title="3、公式"></a>3、公式</h2><p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。如：</p>
-<pre class="line-numbers language-javascript"><code class="language-javascript">$$
-\mathbf<span class="token punctuation">{</span>V<span class="token punctuation">}</span>_1 \times \mathbf<span class="token punctuation">{</span>V<span class="token punctuation">}</span>_2 <span class="token operator">=</span>  \begin<span class="token punctuation">{</span>vmatrix<span class="token punctuation">}</span> 
-\mathbf<span class="token punctuation">{</span>i<span class="token punctuation">}</span> <span class="token operator">&amp;</span> \mathbf<span class="token punctuation">{</span>j<span class="token punctuation">}</span> <span class="token operator">&amp;</span> \mathbf<span class="token punctuation">{</span>k<span class="token punctuation">}</span> \\
-\frac<span class="token punctuation">{</span>\partial X<span class="token punctuation">}</span><span class="token punctuation">{</span>\partial u<span class="token punctuation">}</span> <span class="token operator">&amp;</span>  \frac<span class="token punctuation">{</span>\partial Y<span class="token punctuation">}</span><span class="token punctuation">{</span>\partial u<span class="token punctuation">}</span> <span class="token operator">&amp;</span> <span class="token number">0</span> \\
-\frac<span class="token punctuation">{</span>\partial X<span class="token punctuation">}</span><span class="token punctuation">{</span>\partial v<span class="token punctuation">}</span> <span class="token operator">&amp;</span>  \frac<span class="token punctuation">{</span>\partial Y<span class="token punctuation">}</span><span class="token punctuation">{</span>\partial v<span class="token punctuation">}</span> <span class="token operator">&amp;</span> <span class="token number">0</span> \\
-\end<span class="token punctuation">{</span>vmatrix<span class="token punctuation">}</span>
-$<span class="token punctuation">{</span>$tep1<span class="token punctuation">}</span><span class="token punctuation">{</span>\style<span class="token punctuation">{</span>visibility<span class="token punctuation">:</span>hidden<span class="token punctuation">}</span><span class="token punctuation">{</span><span class="token punctuation">(</span>x<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">(</span>x<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token punctuation">}</span>
-$$<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>显示结果为：</p>
+<pre><code>$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
+\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
+\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\
+\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\
+\end{vmatrix}
+${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
+$$</code></pre><p>显示结果为：</p>
 <blockquote>
 <p>$$<br>\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}<br>\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br>\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br>\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br>\end{vmatrix}<br>${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}<br>$$</p>
 </blockquote>
